@@ -11,7 +11,7 @@ print(Palindromo.esPalindromo('radar'))
 print(Palindromo.esPalindromo('sonar')) 
 >>> False 
 print(Palindromo.esPalindromo('Arde ya la yedra')) 
->>> False 
+>>> True 
 print(Palindromo.esPalindromo('Ardeyalayedra')) 
 >>> True 
 print(Palindromo.esPalindromo('!@#$% %$#@!')) 
