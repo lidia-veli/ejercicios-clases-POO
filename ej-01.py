@@ -1,10 +1,4 @@
 class Palindromo:
-    def __init__(self, palabra):
-        self.palabra = palabra
-
-        #comprobar que es una cadena de caracteres válida
-        if not isinstance(palabra, str):
-            raise TypeError('La palabra debe ser una cadena de caracteres')
 
     @staticmethod
     def esPalindromo(cadena):
